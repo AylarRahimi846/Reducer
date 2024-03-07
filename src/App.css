@@ -1,0 +1,60 @@
+body{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(70, 22, 116);
+}
+
+
+.container{
+  margin-top:12em;
+  background-color: rebeccapurple;
+  width: 700px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ border-radius: 50px;
+}
+
+
+.counter{
+  font-size: 80px;
+  color: black;
+}
+
+
+.counter__increase{
+  color: white;
+background-color: rgb(70, 22, 116);
+margin-bottom: 40px;
+border-radius: 5px;
+padding: 15px 18px;
+cursor: pointer;
+border: none;
+outline: none;
+font-size: 25px;
+}
+
+
+.counter__decrease{
+  color: white;
+  background-color: rgb(70, 22, 116);
+  border-radius: 5px;
+  padding: 15px 18px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+
+
+
+
+
+
+#root {
+  text-align: center;
+}
